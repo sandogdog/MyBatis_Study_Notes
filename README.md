@@ -1,5 +1,7 @@
 # MyBatis_Study_Notes
-关于MyBatis的杂记
+关于MyBatis的杂记：
+
+MyBatis 是一个持久层框架，主要用于在应用程序中将对象与数据库记录映射起来。它简化了与数据库的交互，减少了编写 SQL 代码的复杂性。MyBatis 的核心功能是将 SQL 语句与 Java 对象之间进行映射，使得开发者可以更加灵活地控制 SQL 查询。
 
 ---
 
