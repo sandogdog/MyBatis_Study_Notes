@@ -6,3 +6,28 @@ MyBatis 是一个持久层框架，主要用于在应用程序中将对象与数
 ---
 
 #### 1.在 MyBatis 这样的框架中，属性名称通常会遵循驼峰命名，而数据库字段名可能会使用下划线分隔，这时可以通过配置来实现自动映射，比如在 MyBatis 中配置 mapUnderscoreToCamelCase=true，可以将数据库的 id_number 自动映射到 Java 类中的 idNumber。
+
+<br>
+
+#### 2.在 XML 文件中，使用 <!-- --> 注释语法可以将代码块注释掉。
+例如：
+
+```XML
+<!--
+    <select id="getByIdWithDish" parameterType="long" resultMap="setmealAndDishMap">
+        select a.*,
+               b.id     sd_id,
+               b.setmeal_id,
+               b.dish_id,
+               b.name   sd_name,
+               b.price  sd_price,
+               b.copies
+        from setmeal a
+                left join
+             setmeal_dish b
+             on
+                 a.id = b.setmeal_id
+        where a.id = #{id}
+    </select>
+-->
+```
