@@ -53,3 +53,34 @@ application.properties:
 ```Mybatis
 mybatis.configuration.map-underscore-to-camel-case=true
 ```
+---
+
+# 4.MyBatis执行流程
+
+![image](https://github.com/user-attachments/assets/49aedf4b-9ad3-432b-95fc-fdee5d8f7ec9)
+
+![image](https://github.com/user-attachments/assets/4ff9427f-e8b1-4388-9e9d-7ffff6ced3d0)
+
+---
+
+# 5.Mybatis延迟加载使用及原理
+
+![image](https://github.com/user-attachments/assets/c79c2a0b-4829-444a-b2be-28faa9068615)
+
+![image](https://github.com/user-attachments/assets/903ed309-69a0-4f1e-b962-adf09fc51e9a)
+
+![image](https://github.com/user-attachments/assets/2a3c4b9f-7245-4ebe-968a-3aeae6902a62)
+
+---
+
+# 6.Mybatis一级、二级缓存
+
+![image](https://github.com/user-attachments/assets/8a7a14b5-8374-46db-abaa-9c7c0173f857)
+
+![image](https://github.com/user-attachments/assets/f7f0a275-934b-4dc0-ab8a-65cd8dfc6a39)
+
+![image](https://github.com/user-attachments/assets/29b0300a-95c6-4f13-bf4d-8aa733e1501e)
+
+![image](https://github.com/user-attachments/assets/abb00041-c1ed-4939-a1de-ce9fe4608cc3)
+
+![image](https://github.com/user-attachments/assets/3f25847a-afc9-41d6-9d88-6239c276df38)
